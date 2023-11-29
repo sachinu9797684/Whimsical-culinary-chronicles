@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Whimsical Culinary Chronicles</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="normalize.css">
+  <style>
+    body {
+      /* Set the background image */
+      background-image: url('https://www.shutterstock.com/image-photo/food-background-spices-herbs-utensil-260nw-2254302831.jpg');
+      /* Set background image size and behavior */
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed; /* Optional: Fixed background */
+      /* Add other styles as needed */
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+    
+  </style>
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="nav-center">
+        <div class="nav-header">
+          
+          <button class="nav-btn btn">
+            <i class="fas fa-align-justify"></i>
+          </button>
+        </div>
+        <div class="nav-links">
+          <a href="index.html" class="nav-link"> home </a>
+          <a href="about.html" class="nav-link"> about </a>
+          <a href="tags.html" class="nav-link"> tags </a>
+          <a href="recipes.html" class="nav-link"> recipes </a>
+
+          <div class="nav-link contact-link">
+            <a href="contact.html" class="btn"> contact </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <main class="page">
+        <div class="recipe-page">
+          <section class="recipe-hero">
+            <img
+              src="./assets/recipes/recipe-1.jpeg"
+              class="img recipe-hero-img"
+            />
+            <article class="recipe-info">
+              <h2>Patoleo From Goa</h2>
+              <p>
+                The signature Goan sweet of Patoleo comprises of parboiled rice cooked with jaggery, coconut and a dash of cinnamon, followed by wrapping the steamed filling in turmeric leaves. 
+              </p>
+              <div class="recipe-icons">
+                <article>
+                  <i class="fas fa-clock"></i>
+                  <h5>prep time</h5>
+                  <p>30 min.</p>
+                </article>
+                <article>
+                  <i class="far fa-clock"></i>
+                  <h5>cook time</h5>
+                  <p>15 min.</p>
+                </article>
+                <article>
+                  <i class="fas fa-user-friends"></i>
+                  <h5>serving</h5>
+                  <p>6 servings</p>
+                </article>
+              </div>
+              <section class="recipe-content">
+                <article>
+                  <h4>instructions</h4>
+                  <!-- single instruction -->
+                  <div class="single-instruction">
+                    <header>
+                      <p>step 1</p>
+                      <div></div>
+                    </header>
+                    <p>
+                        Mix rice flour, grated coconut, and jaggery to form a thick batter.
+                        Clean and cut banana leaves into square pieces.
+                    </p>
+                  </div>
+                  <!-- end of single instruction -->
+                  <!-- single instruction -->
+                  <div class="single-instruction">
+                    <header>
+                      <p>step 2</p>
+                      <div></div>
+                    </header>
+                    <p>
+                        Place a portion of the batter on each piece of banana leaf and fold to make a packet.
+                        Steam the packets for about 20-25 minutes
+                    </p>
+                  </div>
+                  <!-- end of single instruction -->
+                  <!-- single instruction -->
+                  <div class="single-instruction">
+                    <header>
+                      <p>step 3</p>
+                      <div></div>
+                    </header>
+                    <p>
+                        Allow them to cool before serving.
+                    </p>
+                  </div>
+                  <!-- end of single instruction -->
+                </article>
+                <article class="second-column">
+                  <div>
+                    <h4>ingredients</h4>
+                    <p class="single-ingredient">2 cups rice flour</p>
+                    <p class="single-ingredient">1 cup grated coconut</p>
+                    <p class="single-ingredient">1 cup jaggery (grated)</p>
+                    <p class="single-ingredient">Banana leaves for wrapping</p>
+                  </div>
+                  
+                </article>
+              </section>
+            </div>
+          </main>
+          <!-- footer -->
+          <footer class="page-footer">
+            <p>
+              &copy; <span id="date"></span>
+              <span class="footer-logo">Whimsical Culinary Chronicles</span> Built by
+              <a href="">Dheeraj</a>
+            </p>
+          </footer>
+          <script src="./app.js"></script>
+        </body>
+      </html>
+      

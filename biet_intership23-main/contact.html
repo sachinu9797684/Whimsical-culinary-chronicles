@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Whimsical Culinary Chronicles</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="normalize.css">
+  <style>
+    body {
+      /* Set the background image */
+      background-image: url('https://i.pinimg.com/originals/85/6f/31/856f31d9f475501c7552c97dbe727319.jpg');
+      /* Set background image size and behavior */
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed; /* Optional: Fixed background */
+      /* Add other styles as needed */
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="nav-center">
+        <div class="nav-header">
+          
+          <button class="nav-btn btn">
+            <i class="fas fa-align-justify"></i>
+          </button>
+        </div>
+        <div class="nav-links">
+          <a href="index.html" class="nav-link"> home </a>
+          <a href="about.html" class="nav-link"> about </a>
+          <a href="tags.html" class="nav-link"> tags </a>
+          <a href="recipes.html" class="nav-link"> recipes </a>
+
+          <div class="nav-link contact-link">
+            <a href="contact.html" class="btn"> contact </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+
+<main class="page">
+    <section class="contact-container">
+         <article class="contact-info">
+           <h3>Want To Get In Touch?</h3>
+           <p>
+            We value your feedback, inquiries, and suggestions. Whether you have questions about our recipes, want to collaborate, or just want to say hello, we're here to listen. Feel free to reach out through the provided contact form, and we'll get back to you as soon as possible. Your engagement is important to us as we continue on our culinary journey together. Thank you for being a part of the Whimsical Culinary Chronicles community!
+           </p>
+           
+         </article>
+         <article>
+           <form class="form contact-form">
+             <div class="form-row">
+               <label html="name" class="form-label">your name</label>
+               <input type="text" name="name" id="name" class="form-input" />
+             </div>
+             <div class="form-row">
+               <label html="email" class="form-label">your email</label>
+               <input type="text" name="email" id="email" class="form-input" />
+             </div>
+             <div class="form-row">
+               <label html="message" class="form-label">message</label>
+               <textarea name="message" id="message" class="form-textarea"></textarea>
+             </div>
+             <button type="submit" class="btn btn-block">
+               submit
+             </button>
+           </form>
+         </article>
+       </section>
+       </main>
+
+<footer class="page-footer">
+    <p>
+      &copy; <span id="date"></span>
+      <span class="footer-logo">Whimsical Culinary Chronicles</span> Built by
+      <a href="">Dheeraj</a>
+    </p>
+  </footer>
+  <script src="./app.js"></script>
+
+</body>
+
+</html>
+
